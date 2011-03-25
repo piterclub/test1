@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="Get in the spotlight" />
+<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
+<title>My mobile page V2</title>
+<link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript">
+var $ = jQuery.noConflict();
+	$(function() {
+		$('#activator').click(function(){
+				$('#box').animate({'top':'65px'},500);
+		});
+		$('#boxclose').click(function(){
+				$('#box').animate({'top':'-400px'},500);
+		});
+		$('#activator_share').click(function(){
+				$('#box_share').animate({'top':'65px'},500);
+		});
+		$('#boxclose_share').click(function(){
+				$('#box_share').animate({'top':'-400px'},500);
+		});
+
+	});
+	$(document).ready(function(){
+	$(".toggle_container").hide(); 
+	$(".trigger").click(function(){
+		$(this).toggleClass("active").next().slideToggle("slow");
+		return false;
+	});
+	
+	});
+</script>
+<meta charset="UTF-8"></head>
+
+<body>
+<div id="main_container">
+	<div class="header">
+    <a href="./index.html" class="left_bt">home</a>
+    <span>Blog</span>
+    <a href="#" class="right_bt" id="activator"><img src="./images/search.png" alt="" title="" border="0" /></a>
+    </div>
+    
+        <div class="box" id="box">
+        	<div class="box_content">
+            
+            	<div class="box_content_tab">
+                Search
+                </div>
+                
+                <div class="box_content_center">
+                <div class="form_content">
+                <form>
+                <input type="text" class="form_input_box" />
+                <a class="boxclose" id="boxclose">Close</a>
+                <input type="submit" class="form_submit" value="Submit" />
+                </form>
+                </div> 
+                
+                <div class="clear"></div>
+                </div>
+            
+           </div>
+        </div>
+
+        <div class="box" id="box_share">
+        	<div class="box_content">
+            	<div class="box_content_tab">
+                Social Share
+                </div>
+                <div class="box_content_center">
+                
+                        <div class="social_share">
+                        <ul>
+                        <li><a href="#"><img src="./images/social/rss.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/google.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/twitter.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/delicious.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/digg.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/linkedin.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/facebook.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/reddit.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/myspace.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/technorati.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/stumbleupon.png" alt="" title="" border="0" /></a></li>
+                        <li><a href="#"><img src="./images/social/flickr.png" alt="" title="" border="0" /></a></li>
+                        </ul>
+                        </div>
+            
+                <a class="boxclose_right" id="boxclose_share">close</a>
+                <div class="clear"></div>
+                
+                </div>
+           </div>
+        </div>
+        
+	<div class="content">
+    	
+        <div class="toogle_wrap">
+            <div class="trigger"><a href="#">Browse by category</a></div>
+            <div class="toggle_container">
+                    <ul>
+                        <li><a href="#">Mobile application development</a></li>
+                        <li><a href="#">Platform development environment</a></li>
+                        <li><a href="#">Big Mobile Revolution</a></li>
+                        <li><a href="#">Consider the Market</a></li>
+                        <li><a href="#">Smartphones for time</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="shadow_wrap"></div>
+        <div class="toogle_wrap">
+            <div class="trigger"><a href="#">Browse by archive</a></div>
+            <div class="toggle_container">
+                    <ul>
+                        <li><a href="#">Archive one</a></li>
+                        <li><a href="#">Archive two</a></li>
+                        <li><a href="#">Archive three</a></li>
+                        <li><a href="#">Archive four</a></li>
+                        <li><a href="#">Archive five</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="shadow_wrap"></div>
+        
+    	<div class="corner_wrap">
+        	<div class="date">
+                <span class="month"><img src="./images/date/feb.gif" alt="" title="" border="0" /></span>
+                <span class="day">23</span>
+                <span class="year">2011</span>
+            </div>
+            <h2><a href="./single.html">Android and the Big Mobile Revolution</a></h2>
+            <div class="clear"></div>
+        </div>
+        <div class="shadow_wrap"></div>
+        
+    	<div class="corner_wrap">
+        	<div class="date">
+                <span class="month"><img src="./images/date/mar.gif" alt="" title="" border="0" /></span>
+                <span class="day">06</span>
+                <span class="year">2011</span>
+            </div>
+            <h2><a href="./single.html">Mobile software is dev by using different platforms</a></h2>
+            <div class="clear"></div>
+        </div>
+        <div class="shadow_wrap"></div>
+
+    	<div class="corner_wrap">
+        	<div class="date">
+                <span class="month"><img src="./images/date/aug.gif" alt="" title="" border="0" /></span>
+                <span class="day">12</span>
+                <span class="year">2011</span>
+            </div>
+            <h2><a href="./single.html">Strategic Mobile Technologies Through 2010</a></h2>
+            <div class="clear"></div>
+        </div>
+        <div class="shadow_wrap"></div>
+        
+    	<div class="corner_wrap">
+        	<div class="date">
+                <span class="month"><img src="./images/date/jul.gif" alt="" title="" border="0" /></span>
+                <span class="day">18</span>
+                <span class="year">2011</span>
+            </div>
+            <h2><a href="./single.html">Mobile Business Applications</a></h2>
+            <div class="clear"></div>
+        </div>
+        <div class="shadow_wrap"></div>
+        
+        <a href="#" class="left_nav">prev</a>
+        
+        <a href="#" class="right_nav">next</a>
+    
+    </div>
+
+
+</div>
+<div id="footer">
+<a href="#" class="left_bt" id="activator_share">share</a>
+<span>My mobile page</span>
+<a onclick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="" title="Go on top" class="right_bt"><img src="./images/top.png" alt="" title="" border="0" /></a>
+</div>
+<!--DO NOT REMOVE BELOW SCRIPT. IT SHOULD ALWAYS APPEAR AT THE VERY END OF YOUR CONTENT-->
+
+<script language="JavaScript1.2">
+
+//Scrollable content III- By http://www.dynamicdrive.com
+
+var speed, currentpos=curpos1=0,alt=1,curpos2=-1
+
+function initialize(){
+if (window.parent.scrollspeed!=0){
+speed=window.parent.scrollspeed
+scrollwindow()
+}
+}
+
+function scrollwindow(){
+temp=(document.all)? document.body.scrollTop : window.pageYOffset
+alt=(alt==0)? 1 : 0
+if (alt==0)
+curpos1=temp
+else
+curpos2=temp
+
+window.scrollBy(0,speed)
+}
+
+setInterval("initialize()",10)
+
+</script>
+</body>
+</html>
